@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#ratedMoviesList , #topRatedShows {
+  overflow-y: scroll;
+  height:800px;
+}
+
+.footer{
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#multiSearchBar{
+  position: relative;
+}
+#showSearchResult{
+  position: absolute;
+  padding: 10px;
+  z-index: 1;
+  background-color:rgb(214, 216, 217);
+  width: 100%;
+}
+
+ul#showSearchResult.list-group li.searchResultRow {
+    color: rgb(214, 216, 217);
+    background-color:blue
+}
